@@ -3,7 +3,7 @@
 
 }
 
-.fila1{
+.header{
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -129,4 +129,28 @@
     height: 2rem;
     align-self: center;
     margin-top: 1rem;
+}
+
+.aliadosPrincipales{
+    outline: 1px solid red;
+    height: 20vh;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.aliado{
+    width: 5rem;
+    height: 3rem;
+    outline: 1px solid red;
+    margin: 0 5rem;
+}
+
+.listasAliados{
+    display: flex;
+    justify-content: space-around;
+}
+
+.grupo {
+    text-align: end;
 }
