@@ -16,7 +16,7 @@
     border: 1px solid blue;
 }
   
-.fila2{
+.navegacion{
     display: flex;
     border: 5px solid rgb(187, 179, 66);
     height: 4rem;
@@ -25,27 +25,28 @@
     flex-direction: row; 
 }
 
-.fila2 a{
+.navegacion a{
     margin: 0 6rem;
 }
 
-.fila3{
+.articulo-principal{
+    width: 100%;
+    height: 80vh;
     display: flex;
-    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
     background-image: url("https://picsum.photos/seed/picsum/800/1000");
     border: 5px solid rgb(127, 120, 12);
 }
 
-.caja-fila3{
-    text-align: center;
+.container-articuloPrincipal{
+    border: 2px solid rgb(180, 24, 50);
+    width: 50%;
+    height: 30vh;
     display: flex;
-    flex-wrap: nowrap;
-    flex-direction: column;  
-}
-
-.fila3 button{
-    height: 2rem;
-    width: 5rem;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .fila4{
